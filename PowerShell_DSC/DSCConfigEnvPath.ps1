@@ -1,0 +1,1 @@
+﻿Start-DscConfiguration -Path 'C:\Users\Administrator\EnvironmentVariable_Path' -Wait -verbose

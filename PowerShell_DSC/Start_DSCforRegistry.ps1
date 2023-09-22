@@ -1,0 +1,1 @@
+﻿Start-DscConfiguration -Path 'C:\Distrib\DSConfigTo2PC' -Verbose -Wait
