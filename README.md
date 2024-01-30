@@ -30,6 +30,17 @@ Description: Search for domain users who have not changed their password for mor
 Description: Retrieve information about group membership from one domain in groups of another domain. It performs a recursive search through all groups in the current domain to determine if a group from another domain is included.
 </blockquote>
 <br>
+<b>&#x2022;&nbsp;Organize_Workspace.ps1</b>
+<blockquote>
+Description: This script arranges the windows of all open cmd.exe instances on the right side of the screen, ensuring they occupy 9/20 of the screen width. The height is divided equally among the open cmd.exe windows. The placement is based on the set screen resolution.
+<br>
+Additionally, it positions windows of msedge.exe on the left side of the screen, utilizing 11/20 of the width while occupying the full height of the screen.
+<br>
+Within the script body, the "Set-Window" function is used. Author: Boe Prox.
+<br>
+<a href=https://github.com/proxb/PowerShell_Scripts/blob/master/Set-Window.ps1>Set-Window.ps1 by Boe Prox.</a>
+</blockquote>
+<br>
 <b>&#x2022;&nbsp;Owners_of_PCs_in_OU_Active_Directory_recursive.ps1</b>
 <blockquote>
 Description: Collect information about the owners of PC accounts in the domain.
