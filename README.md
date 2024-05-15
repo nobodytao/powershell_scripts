@@ -30,6 +30,16 @@ Description: Search for domain users who have not changed their password for mor
 Description: Retrieve information about group membership from one domain in groups of another domain. It performs a recursive search through all groups in the current domain to determine if a group from another domain is included.
 </blockquote>
 <br>
+<b>&#x2022;&nbsp;Open_and_arrange_VS_windows.ps1</b>
+<blockquote>
+Description: The script opens 6 Visual Studio Code windows and arranges them in two rows, occupying the entire width and length of the screen. The number of windows and the number of rows can be adjusted using the $WindowsCount and $ColumnsCount variables.<br>
+</blockquote>
+<br>
+<b>&#x2022;&nbsp;Organize_VS_windows.ps1</b>
+<blockquote>
+Description: The script finds all open Visual Studio Code windows by the window title and arranges them in two rows, occupying the entire width and length of the screen. If there is an odd number of windows, then there will be one less window in the second row.<br>
+</blockquote>
+<br>
 <b>&#x2022;&nbsp;Organize_Workspace.ps1</b>
 <blockquote>
 Description: This script arranges the windows of all open cmd.exe instances on the right side of the screen, ensuring they occupy 9/20 of the screen width. The height is divided equally among the open cmd.exe windows. The placement is based on the set screen resolution.
