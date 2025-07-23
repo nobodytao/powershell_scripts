@@ -76,6 +76,16 @@ Description: Remove user accounts from a domain group based on a list from a txt
 Description: Set passwords for user accounts in Active Directory based on a list in a CSV file. The first column contains SamaccountName from Active Directory, and the second column contains the corresponding password.
 </blockquote>
 <br>
+<b>&#x2022;&nbsp;Restore_linux_files_from_veeam_backup_with_powershell.ps1</b>
+<blockquote>
+Description: This script performs a targeted guest file restore for a Linux agent backup using Veeam and PowerShell. It automates the process of mounting the latest restore point, navigating the guest file system, and restoring a specific folder with a persistent agent and specified credentials.
+</blockquote>
+<br>
+<b>&#x2022;&nbsp;Set_pass_to_users_from_CSV-file.ps1</b>
+<blockquote>
+Description: Set passwords for user accounts in Active Directory based on a list in a CSV file. The first column contains SamaccountName from Active Directory, and the second column contains the corresponding password.
+</blockquote>
+<br>
 <b>&#x2022;&nbsp;Subgroups_in_group_from_all_domains_in_forest_recursive.ps1</b>
 <blockquote>
 Description: Build a tree of subgroups within a specified domain group, including subgroups from other forest domains in a recursive manner. This script finds all groups from all domains that are part of the specified group in the specified domain.
